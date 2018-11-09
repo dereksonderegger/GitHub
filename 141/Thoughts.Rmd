@@ -1,0 +1,65 @@
+---
+title: "STA 141 Ruminations"
+author: ""
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    fig_height: 3
+    fig_width: 5
+  pdf_document:
+    fig_height: 3
+    fig_width: 5
+  word_document:
+    fig_height: 3
+    fig_width: 5
+---
+
+```{r, setup, include=FALSE}
+# Some customization.  You can alter or delete as desired (if you know what you are doing).
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+```
+
+* Goal of a graphic is to either
+    - Tell a story
+    - Discover a story
+
+* Misleading statistics
+    - Statistically significant results with high sample sizes
+        - Electronic dating couples less likely to divorce (eharmony)
+    - 40% of universities report drop in international graduate applications
+          after Trump Elected.  (38% down, 35% Up, 27% the same)
+    - Motorcycling deaths vs car
+    - Contextless numbers
+    
+* Convey Information with as much context as possible
+    - Context == scales
+
+* Information first, artistry second
+    - Signal to Ink ratio
+    - Example of 3-D barchart being unable to be read.
+    - Video showing a 3-D excel pie chart into a simple bar graph.
+
+* What things of interest can we ask about?
+    - Center: Why do we care about centrality?  Examples
+    - Spread: Why do we care about spread? Examples
+    - Shape: Why do we care about shape? Examples
+    
+* How do we display these things?
+    - Histograms/density plots
+        - With or without faceting
+    - Boxplots
+    - Violin plots
+    
+    
+* Difference in means/medians relative to spread
+    - Examples where the difference in means/medians sounds big but is actually
+      pretty small.  
+      - Running times in 10K race.  Give the difference in means (males vs females).
+          - Make a prediction.  Would you bet $5?  Your house?  Why not your house?
+          - Give the boxplot too.
+      - IQ tests men vs women.
+      
+
+
